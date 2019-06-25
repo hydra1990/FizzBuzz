@@ -37,13 +37,15 @@ public class FizzBuzzTest {
     }
 
     @Test
-    public void testShouldPrintANumberIfItsNotAMultipleOfThreeNorFive() {
+    public void testShouldBeFizzBuzzWhenMultipleOfThreeAndFive() {
         //GIVEN
-
+        int nfb = 15;
         //WHEN
-
+        if (fb.isFizz(nfb) && fb.isBuzz(nfb)) {
+            text = "FizzBuzz";
+        }
         //THEN
-
+        assertEquals("FizzBuzz", text);
     }
 
 
