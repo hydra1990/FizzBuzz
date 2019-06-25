@@ -1,18 +1,22 @@
 import org.junit.*;
 
 public class FizzBuzzTest {
+    private FizzBuzz fb;
+    private String text;
 
-//    @Before
-//    public void setUp() throws Exception {
-//        throw new Exception();
-//    }
+    @Before
+    public void setUp() {
+        fb = new FizzBuzz();
+    }
 
     @Test
     public void shouldBeFizzWhenIsMultipleOfThree() {
         //GIVEN
-
+        int nfizz = 3;
         //WHEN
-
+        if (fb.isFizz(nfizz)) {
+            text = "Fizz";
+        }
         //THEN
 
     }
