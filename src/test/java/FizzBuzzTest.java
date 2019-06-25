@@ -59,9 +59,4 @@ public class FizzBuzzTest {
         //THEN
         assertEquals(nfb + "", text);
     }
-
-//    @After
-//    public void tearDown() throws Exception {
-//        throw new Exception();
-//    }
 }
