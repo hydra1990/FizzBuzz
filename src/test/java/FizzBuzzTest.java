@@ -17,6 +17,16 @@ public class FizzBuzzTest {
 
     }
 
+    @Test
+    public void ShouldBeBuzzWhenIsMultipleOfFive() {
+        //GIVEN
+
+        //WHEN
+
+        //THEN
+
+    }
+
 
 //    @After
 //    public void tearDown() throws Exception {
