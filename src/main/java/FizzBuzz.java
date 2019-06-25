@@ -20,6 +20,10 @@ class FizzBuzz {
     }
 
     boolean isNotFizzBuzz(int checkValueFizzBuzz) {
-        return true;
+        boolean isNotFizzBuzz = false;
+        if (checkValueFizzBuzz % 3 != 0 && checkValueFizzBuzz % 5 != 0) {
+            isNotFizzBuzz = true;
+        }
+        return isNotFizzBuzz;
     }
 }
