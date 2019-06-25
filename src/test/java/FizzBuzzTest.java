@@ -2,10 +2,10 @@ import org.junit.*;
 
 public class FizzBuzzTest {
 
-    @Before
-    public void setUp() throws Exception {
-        throw new Exception();
-    }
+//    @Before
+//    public void setUp() throws Exception {
+//        throw new Exception();
+//    }
 
     @Test
     public void shouldBeFizzWhenIsMultipleOfThree() {
@@ -18,8 +18,8 @@ public class FizzBuzzTest {
     }
 
 
-    @After
-    public void tearDown() throws Exception {
-        throw new Exception();
-    }
+//    @After
+//    public void tearDown() throws Exception {
+//        throw new Exception();
+//    }
 }
