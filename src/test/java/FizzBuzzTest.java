@@ -1,4 +1,7 @@
-import org.junit.*;
+import org.junit.Before;
+import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class FizzBuzzTest {
     private FizzBuzz fb;
@@ -18,7 +21,7 @@ public class FizzBuzzTest {
             text = "Fizz";
         }
         //THEN
-
+        assertEquals("Fizz", text);
     }
 
     @Test
