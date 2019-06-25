@@ -27,11 +27,13 @@ public class FizzBuzzTest {
     @Test
     public void ShouldBeBuzzWhenIsMultipleOfFive() {
         //GIVEN
-
+        int nbuzz = 5;
         //WHEN
-
+        if (fb.isBuzz(nbuzz)) {
+            text = "Buzz";
+        }
         //THEN
-
+        assertEquals("Buzz", text);
     }
 
     @Test
