@@ -4,7 +4,11 @@ class FizzBuzz {
     }
 
     boolean isFizz(int checkValueFizz) {
-        return true;
+        boolean isFizz = false;
+        if (checkValueFizz % 3 == 0) {
+            isFizz = true;
+        }
+        return isFizz;
     }
 
     boolean isBuzz(int checkValueBuzz) {
