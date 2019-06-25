@@ -10,4 +10,8 @@ class FizzBuzz {
     boolean isBuzz(int nbuzz) {
         return true;
     }
+
+    boolean isNotFizzBuzz(int nfb) {
+        return true;
+    }
 }
