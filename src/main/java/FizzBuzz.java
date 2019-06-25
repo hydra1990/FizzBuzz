@@ -3,7 +3,7 @@ class FizzBuzz {
 
     }
 
-    private boolean isFizz(int nfizz) {
+    boolean isFizz(int nfizz) {
         return true;
     }
 }
