@@ -48,6 +48,17 @@ public class FizzBuzzTest {
         assertEquals("FizzBuzz", text);
     }
 
+    @Test
+    public void testShouldPrintANumberIfItsNotAMultipleOfThreeNorFive() {
+        //GIVEN
+        int nfb = 23;
+        //WHEN
+        if (fb.isNotFizzBuzz(nfb)) {
+            text = nfb + "";
+        }
+        //THEN
+        assertEquals(nfb + "", text);
+    }
 
 //    @After
 //    public void tearDown() throws Exception {
