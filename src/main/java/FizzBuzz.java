@@ -3,15 +3,15 @@ class FizzBuzz {
 
     }
 
-    boolean isFizz(int nfizz) {
+    boolean isFizz(int checkValueFizz) {
         return true;
     }
 
-    boolean isBuzz(int nbuzz) {
+    boolean isBuzz(int checkValueBuzz) {
         return true;
     }
 
-    boolean isNotFizzBuzz(int nfb) {
+    boolean isNotFizzBuzz(int checkValueFizzBuzz) {
         return true;
     }
 }
