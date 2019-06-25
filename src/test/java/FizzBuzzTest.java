@@ -27,6 +27,16 @@ public class FizzBuzzTest {
 
     }
 
+    @Test
+    public void testShouldPrintANumberIfItsNotAMultipleOfThreeNorFive() {
+        //GIVEN
+
+        //WHEN
+
+        //THEN
+
+    }
+
 
 //    @After
 //    public void tearDown() throws Exception {
